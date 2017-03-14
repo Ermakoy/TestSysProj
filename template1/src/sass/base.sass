@@ -17,25 +17,11 @@
 	+box-sizing(border-box)
 	font-family: -apple-system, BlinkMacSystemFont, sans-serif
 
-html, body
+body, html
 	padding: 0
 	margin: 0
-	background: #e3fafc
+	background: #dee2e6
 
-.root
-	margin: 15px auto
+.container
 	max-width: 1000px
-	overflow: hidden
-	background: white
-	+box-shadow(0px 0px 124px 8px rgba(0,0,0,0.17))
-	+border-radius(20px)
-
-	@media (max-width: 1020px)
-		max-width: calc(100% - 20px)
-
-	@media (max-width: 520px)
-		min-height: 100vh
-		max-width: 100%
-		width: 100%
-		+border-radius(0)
-		margin: 0	
+	margin: 0 auto		
